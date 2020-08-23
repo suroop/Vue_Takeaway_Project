@@ -73,3 +73,66 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ### css预编译器
 
 `scss`
+
+## 前端路由
+
+> 一级路由
+>
+> > 首页
+> >
+> > > `/msite`
+> > >
+> > > `Msite.vue`
+> >
+> > 搜索
+> >
+> > > `search`
+> > >
+> > > `Search.vue`
+> >
+> > 订单
+> >
+> > > `/order`
+> > >
+> > > `Order.vue`
+> >
+> > 个人
+> >
+> > > `/prefile`
+> > >
+> > > `Profile.vue`
+> >
+> > 登录
+> >
+> > > `/login`
+> > >
+> > > `Login.vue`
+> >
+> > 商家
+> >
+> > > `/shop`
+> > >
+> > > `Shop.vue`
+
+> 二级路由
+>
+> > 商家商品
+> >
+> > > `/good`
+> > >
+> > > `ShopGoods.vue`
+> >
+> > 商家评价
+> >
+> > > `/ratings`
+> > >
+> > > `ShopRatings.vue`
+> >
+> > 商家信息
+> >
+> > > `/info`
+> > >
+> > > `ShopInfo.vue`
+
+## API接口
+

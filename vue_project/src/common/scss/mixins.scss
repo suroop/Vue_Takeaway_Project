@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+@mixin FlexBox($FD,$JC) {
+  display: flex;
+  flex-direction: $FD;
+  align-content: center;
+  justify-content: $JC;
+}
