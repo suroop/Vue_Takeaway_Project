@@ -7,7 +7,7 @@
 @mixin FlexBox($FD,$JC,$AC) {
   display: flex;
   flex-direction: $FD;
-  align-content: $AC;
+  align-items: $AC;
   justify-content: $JC;
 }
 @mixin titleStyle($w){

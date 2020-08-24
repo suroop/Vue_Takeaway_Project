@@ -82,7 +82,7 @@
       input{
         width: 280px;
         padding-left: 15px;
-        height: 100%;
+        height: 35px;
         background-color: #F2F2F2;
         border-radius: 10px;
       }

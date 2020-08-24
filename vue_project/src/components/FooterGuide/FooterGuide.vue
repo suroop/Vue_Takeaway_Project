@@ -20,6 +20,8 @@
 <style lang="scss" rel="stylesheet/scss">
 @import "src/common/scss/mixins";
   #FooterGuide{
+    background-color: white;
+    z-index: 99999;
     border-top: 1px solid #dddddd;
     position: absolute;
     bottom: 0;
