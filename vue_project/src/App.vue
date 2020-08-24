@@ -23,6 +23,7 @@
   text-align: center;
   color: #2c3e50;
   height: 100vh;
+  overflow-y: auto;
   width: 100%;
   position: relative;
 }

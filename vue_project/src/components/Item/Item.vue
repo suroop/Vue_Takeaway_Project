@@ -37,7 +37,6 @@
     }
     .info{
       width: 50%;
-
       @include FlexBox(column,center,center);
       div{
         line-height: 31.25px;
@@ -54,6 +53,9 @@
         }
         &:last-child,&:nth-child(2){
           font-size: 0.5em;
+        }
+        .fa{
+          color: yellow;
         }
       }
     }

@@ -23,7 +23,8 @@
     background-color: white;
     z-index: 99999;
     border-top: 1px solid #dddddd;
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
     height: 50px;
