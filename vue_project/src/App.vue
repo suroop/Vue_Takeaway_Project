@@ -7,10 +7,10 @@
 
 <script>
   import FooterGuide from "./components/FooterGuide/FooterGuide";
-export default {
+  export default {
   name: 'App',
   components:{
-    FooterGuide
+    FooterGuide,
   }
 }
 </script>

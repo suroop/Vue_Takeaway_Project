@@ -4,9 +4,17 @@
   text-decoration: none;
   list-style-type: none;
 }
-@mixin FlexBox($FD,$JC) {
+@mixin FlexBox($FD,$JC,$AC) {
   display: flex;
   flex-direction: $FD;
-  align-content: center;
+  align-content: $AC;
   justify-content: $JC;
+}
+@mixin titleStyle($w){
+  width: $w;
+  line-height: 35px;
+  height: 100%;
+  font-size: 1em;
+  color: white;
+  font-family: 'Microsoft JhengHei',serif;
 }

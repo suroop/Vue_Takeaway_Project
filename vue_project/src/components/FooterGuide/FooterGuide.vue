@@ -26,7 +26,7 @@
     width: 100%;
     height: 50px;
     ul{
-      @include FlexBox(row,space-around);
+      @include FlexBox(row,space-around,center);
       height: 100%;
       width: 100%;
       li{
@@ -41,7 +41,7 @@
         }
         a{
           margin: 5px 0;
-          @include FlexBox(column,space-around);
+          @include FlexBox(column,space-around,center);
           color: #989898;
         }
       }
